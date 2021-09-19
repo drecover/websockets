@@ -16,17 +16,29 @@ websockets requires Python ≥ 3.7.
 
 It doesn't have any dependencies.
 
+.. _install:
+
 Installation
 ------------
 
-Install websockets with::
+Install websockets with:
 
-    pip install websockets
+.. code:: console
+
+    $ pip install websockets
 
 Wheels are available for all platforms.
 
 First steps
 -----------
+
+Learn how to build an real-time application with the tutorial.
+
+.. toctree::
+
+    tutorial1
+    tutorial2
+    tutorial3
 
 If you're in a hurry, check out these examples.
 

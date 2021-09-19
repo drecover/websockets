@@ -26,7 +26,9 @@ copyright = f"2013-{datetime.date.today().year}, Aymeric Augustin and contributo
 author = "Aymeric Augustin"
 
 # The full version, including alpha/beta/rc tags
-release = "10.0"
+from websockets.version import version
+
+release = version
 
 
 # -- General configuration ---------------------------------------------------
@@ -59,7 +61,7 @@ nitpick_ignore = [
 extensions = [
     "sphinx.ext.autodoc",
     "sphinx.ext.intersphinx",
-    "sphinx.ext.linkcode",
+    # "sphinx.ext.linkcode",
     "sphinx.ext.napoleon",
     "sphinx_copybutton",
     "sphinx_inline_tabs",
